@@ -28,6 +28,8 @@ def ensure_users_file():
             pass
 
 
+
+
 def hash_password(plain_password: str) -> str:
     """Hash a plaintext password using bcrypt and return utf-8 string."""
     pw_bytes = plain_password.encode("utf-8")
